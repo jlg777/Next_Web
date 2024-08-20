@@ -1,4 +1,7 @@
 'use client'
+
+import Link from 'next/link'
+
 const PostCard = ({ post }) => {
   return (
     <div>
@@ -13,6 +16,8 @@ const PostCard = ({ post }) => {
       >
         Click
       </button>
+      <br />
+      <Link href={`/posts/${post.id}`}>Ir</Link>
     </div>
   )
 }

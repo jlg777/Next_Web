@@ -7,7 +7,7 @@ const loadPost = async () => {
   return data
 }
 
-const page = async () => {
+const PostPage = async () => {
   const posts = await loadPost()
   //console.log(posts)
   return (
@@ -18,4 +18,4 @@ const page = async () => {
     </>
   )
 }
-export default page
+export default PostPage

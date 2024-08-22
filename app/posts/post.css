@@ -1,26 +1,30 @@
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    margin: 1rem 0;
-    padding: 4rem;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem 0;
+  padding: 4rem;
 }
 a {
-    color: white; /* Color de los enlaces no visitados */
-    text-decoration: none; /* Elimina el subrayado */
-  }
-  
-  /* Estilo para enlaces visitados */
-  a:visited {
-    color: white; /* Color de los enlaces visitados */
-  }
-  
-  /* Estilo para enlaces cuando el cursor está sobre ellos */
-  a:hover {
-    color: red; /* Color cuando el cursor está sobre el enlace */
-  }
-  
-  /* Estilo para enlaces en el momento de ser clickeados */
-  a:active {
-    color: white; /* Color cuando el enlace es clickeado */
-  }
+  color: white; /* Color de los enlaces no visitados */
+  text-decoration: none; /* Elimina el subrayado */
+}
+
+/* Estilo para enlaces visitados */
+a:visited {
+  color: white; /* Color de los enlaces visitados */
+}
+
+/* Estilo para enlaces cuando el cursor está sobre ellos */
+a:hover {
+  color: red; /* Color cuando el cursor está sobre el enlace */
+}
+
+/* Estilo para enlaces en el momento de ser clickeados */
+a:active {
+  color: white; /* Color cuando el enlace es clickeado */
+}
+.grid2 {
+  background-color: #101010;
+  padding: 2rem;
+}

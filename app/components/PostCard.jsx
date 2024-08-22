@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const PostCard = ({ post }) => {
   return (
-    <div>
+    <div className="grid2">
       <h2>
         {post.id} - {post.title}
       </h2>
